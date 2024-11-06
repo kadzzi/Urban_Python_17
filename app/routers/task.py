@@ -19,8 +19,8 @@ async def create_task():
     pass
 
 
-@task_router.put('/upgrade')
-async def upgrade_task():
+@task_router.put('/update')
+async def update_task():
     pass
 
 
